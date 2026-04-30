@@ -2,8 +2,6 @@ import { List, TaskBar } from "@react95/core";
 import {
   Computer3,
   Settings,
-  Joy102,
-  Inetcpl1313,
   Wordpad,
   Mail,
   CdMusic
