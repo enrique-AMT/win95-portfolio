@@ -2,96 +2,100 @@ import { Avatar, Checkbox, Fieldset, ProgressBar, Tab, Tabs } from '@react95/cor
 
 function Resume() {
   return (
-    <Tabs defaultActiveTab="Genesis">
-      <Tab title="Genesis">
-        <h3>Behold, I am Ali Shirani</h3>
-        <Avatar src="https://avatars.githubusercontent.com/u/87601568?v=4" alt="A portrait of the artisan" size="140px" />
+    <Tabs defaultActiveTab="About">
+      <Tab title="About">
+        <h3>About Enrique Marrero</h3>
+        <Avatar src="https://media.licdn.com/dms/image/v2/D4E03AQE_K2vbM2RZNQ/profile-displayphoto-scale_400_400/B4EZsBCeLjHUAg-/0/1765248985651?e=1779321600&v=beta&t=3NRtWMC8WhGw4bCcZn4xZ2YisCOeikv915PLaYA7iNY" alt="Profile Picture" size="140px" />
 
-        <p>A Software Engineer Architecting the Digital Frontier</p>
-        <Fieldset legend="My Saga">
+        <p>Software Engineer | Tinkerer | Music Enthusiast</p>
+        <Fieldset legend="Synopsis">
           <p>
-            I am a creator of worlds, a weaver of code, and a solver of complex digital puzzles. With a mastery of both front-end and back-end technologies, I don't just build applications; I breathe life into them. My quest is to forge elegant, high-performance software that not only meets the needs of the present but also anticipates the challenges of the future.
+            I'm a software engineer with experiences ranging from full-stack engineering to hardware & electronics tinkering. Main focuses are efficient and creative code, and providing a learning environment for those less knowledgeable.
           </p>
         </Fieldset>
       </Tab>
-      <Tab title="Chronicles of a Coder">
-        <Fieldset legend="Quera - The Mentor's Forge (2023 - 2024)">
+      <Tab title="Business Experience">
+        <Fieldset legend="Software Engineer II - Indeed (2022 - PRESENT)">
+          <p>
+            Championed the development of several team and organization-wide initiatives, including:
+          </p>
           <Checkbox readOnly checked>
-            Architect of Learning: As a Software Engineer and Mentor, I crafted the very tools and tutorials that would shape the next generation of developers. I authored extensive documentation for a pantheon of technologies, including HTML, CSS, JavaScript, and TypeScript.
+            A tracking website for at-a-glance information on the final 50% migrations from on-premise applications and services to the cloud, reducing costs for the company.
           </Checkbox>
           <Checkbox readOnly checked>
-            The IDE Innovator: I was a key force in the development of a groundbreaking web-based Integrated Development Environment, creating a seamless and powerful platform for front-end education.
+           Improvements to an internal tool to allow for access to relevant business metrics, which reduced usage of unneeded resources by 25%.
           </Checkbox>
-        </Fieldset>
-        <Fieldset legend="Code with Ali - The YouTube Odyssey (2023 - Present)">
           <Checkbox readOnly checked>
-            The Digital Chronicler: Through my YouTube channel, "Code with Ali," I share my knowledge with the world, creating in-depth tutorials on full-stack development with technologies like React and Next.js, and venturing into the realm of AI-powered APIs.
-          </Checkbox>
-        </Fieldset>
-        <Fieldset legend="No Avaran Tejarate Pars (RcoinX) - The Trader's Domain (2022 - 2023)">
-          <Checkbox readOnly checked>
-            Master of the Mobile Realm: As a Software Engineer, I engineered a cutting-edge mobile trading application using Expo and React Native, and developed a companion website with the power of Next.js and Tailwind CSS.
+           Improvements to an internal AI agent's responses by updating its glossary of terms to include commonly used terms, as well as adjustments to its ability to ask follow-up questions; which increased the reliability of responses by 50%.
           </Checkbox>
         </Fieldset>
-        <Fieldset legend="ATIPA (Keytex) - The User's Champion (2021 - 2022)">
+        <Fieldset legend="Junior Technical Consultant - Fusionworks (2021 - 2022)">
+          <p>
+            Leveraged the usage of workflow autiomation tools and general software development skills to: 
+          </p>
           <Checkbox readOnly checked>
-            The Alchemist of User Experience: I transmuted user interaction into gold, designing and developing a seamless web application that dramatically boosted user engagement and conversion rates.
+            Improve and automate client processes
           </Checkbox>
           <Checkbox readOnly checked>
-            The Performance Prophet: Through the implementation of efficient coding practices and website optimization, I achieved a legendary 20% increase in user retention and a colossal 40% surge in mobile traffic.
+            Provide new experiences to interface with customers of client companies
           </Checkbox>
         </Fieldset>
       </Tab>
-      <Tab title="Arsenal of a Software Engineer">
+      <Tab title="Skills">
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
-          <Fieldset legend="Core Languages & Frameworks">
+          <Fieldset legend="Frontend">
             <ul>
               <li className="resume-skills">JavaScript (ES6+)</li>
               <ProgressBar percent={98} width="200px" />
               <li className="resume-skills">TypeScript</li>
               <ProgressBar percent={95} width="200px" />
-              <li className="resume-skills">React.js & React Native</li>
-              <ProgressBar percent={97} width="200px" />
-              <li className="resume-skills">Next.js</li>
-              <ProgressBar percent={96} width="200px" />
-              <li className="resume-skills">Node.js</li>
-              <ProgressBar percent={90} width="200px" />
-              <li className="resume-skills">Angular</li>
-              <ProgressBar percent={80} width="200px" />
-              <li className="resume-skills">Vue.js</li>
-              <ProgressBar percent={78} width="200px" />
             </ul>
           </Fieldset>
-          <Fieldset legend="Styling & UI Craft">
+          <Fieldset legend="Backend">
             <ul>
-              <li className="resume-skills">HTML5 & CSS3</li>
+              <li className="resume-skills">Java</li>
               <ProgressBar percent={100} width="200px" />
-              <li className="resume-skills">SASS</li>
+              <li className="resume-skills">Kotlin</li>
               <ProgressBar percent={92} width="200px" />
-              <li className="resume-skills">Tailwind CSS</li>
+              <li className="resume-skills">Groovy</li>
               <ProgressBar percent={94} width="200px" />
-              <li className="resume-skills">Astro</li>
+              <li className="resume-skills">Spring</li>
               <ProgressBar percent={85} width="200px" />
+              <li className="resume-skills">GraphQL</li>
+              <ProgressBar percent={80} width="200px" />
             </ul>
           </Fieldset>
           <Fieldset legend="Development & Operations">
             <ul>
               <li className="resume-skills">Git & GitHub</li>
               <ProgressBar percent={99} width="200px" />
-              <li className="resume-skills">Jest & Cypress</li>
-              <ProgressBar percent={88} width="200px" />
+              <li className="resume-skills">Jest</li>
+              <ProgressBar percent={80} width="200px" />
               <li className="resume-skills">Docker</li>
               <ProgressBar percent={75} width="200px" />
               <li className="resume-skills">CI/CD</li>
               <ProgressBar percent={70} width="200px" />
             </ul>
           </Fieldset>
+          <Fieldset legend="Other">
+            <ul>
+              <li className="resume-skills">Microsoft Power Automate</li>
+              <ProgressBar percent={90} width="200px" />
+              <li className="resume-skills">Database Design & SQL</li>
+              <ProgressBar percent={80} width="200px" />
+            </ul>
+          </Fieldset>
         </div>
       </Tab>
-      <Tab title="The Soul of the Engineer">
-        <Fieldset legend="Core Attributes">
+      <Tab title="Other">
+        <Fieldset legend="More Info">
           <p>
-            I am a relentless problem-solver, a collaborative spirit, and a lifelong learner. My passion for technology is matched only by my dedication to creating meaningful and impactful digital experiences. I thrive in dynamic environments where I can push the boundaries of what's possible and contribute to a team that shares my vision for a better, more connected world.
+            I am passionate about learning and getting my hands on new technologies and stacks. I've been interested technology and anything related since I was young and have always been interested in following this path.
+          </p>
+        </Fieldset>
+        <Fieldset legend="Hobbies">
+          <p>
+            Aside from software tinkering, I do my fair share of hardware of hobbyist hardware work, particularly in the realm of electronics repairs. I also enjoy music and practice the guitar and drums in my free time, as well as enjoying amateur photography, specifically nature and architectural photography.
           </p>
         </Fieldset>
       </Tab>

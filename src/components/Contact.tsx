@@ -4,13 +4,11 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const contactLinks = [
   {
-    icon: <FaGithub size={24} />, label: "GitHub", url: "https://github.com/alishirani1384" },
+    icon: <FaGithub size={24} />, label: "GitHub", url: "https://github.com/enrique-amt" },
   {
-    icon: <FaLinkedin size={24} />, label: "LinkedIn", url: "https://linkedin.com/in/ali-shirani-145bb61a1" },
+    icon: <FaLinkedin size={24} />, label: "LinkedIn", url: "https://linkedin.com/in/enrique-amt" },
   {
-    icon: <FaTwitter size={24} />, label: "Twitter (X)", url: "https://x.com/alixshirani" },
-  {
-    icon: <Mail variant="32x32_4" />, label: "Gmail", url: "mailto:alishiranii1384@gmail.com" },
+    icon: <Mail variant="32x32_4" />, label: "Gmail", url: "mailto:enrique.marrero95@gmail.com" },
 ];
 
 const Contact = () => (

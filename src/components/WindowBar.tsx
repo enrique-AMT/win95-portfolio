@@ -23,7 +23,7 @@ function Clock() {
 
   return (
     <div style={{ padding: "0 10px", alignSelf: "center" }}>
-      {time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+      {time.toLocaleTimeString("en-us", { hour: "2-digit", minute: "2-digit" })}
     </div>
   );
 }
@@ -39,16 +39,13 @@ function WindowBar() {
             <List.Item icon={<Mail variant="32x32_4" />}>
               <List width={"200px"}>
                 <List.Item icon={<FaGithub size={16} />}>
-                  <a href="https://github.com/YOUR_GITHUB" target="_blank" style={{ textDecoration: 'none', color: '#222', fontFamily: 'MS Sans Serif' }}>GitHub</a>
+                  <a href="https://github.com/enrique-amt" target="_blank" style={{ textDecoration: 'none', color: '#222', fontFamily: 'MS Sans Serif' }}>GitHub</a>
                 </List.Item>
                 <List.Item icon={<FaLinkedin size={16} />}>
-                  <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" style={{ textDecoration: 'none', color: '#222', fontFamily: 'MS Sans Serif' }}>LinkedIn</a>
-                </List.Item>
-                <List.Item icon={<FaTwitter size={16} />}>
-                  <a href="https://twitter.com/YOUR_TWITTER" target="_blank" style={{ textDecoration: 'none', color: '#222', fontFamily: 'MS Sans Serif' }}>Twitter (X)</a>
+                  <a href="https://linkedin.com/in/enrique-amt" target="_blank" style={{ textDecoration: 'none', color: '#222', fontFamily: 'MS Sans Serif' }}>LinkedIn</a>
                 </List.Item>
                 <List.Item icon={<Mail variant="16x16_4" />}>
-                  <a href="mailto:YOUR_EMAIL@gmail.com" style={{ textDecoration: 'none', color: '#222', fontFamily: 'MS Sans Serif' }}>Gmail</a>
+                  <a href="mailto:enrique.marrero95@gmail.com" style={{ textDecoration: 'none', color: '#222', fontFamily: 'MS Sans Serif' }}>Gmail</a>
                 </List.Item>
               </List>
               Contact
