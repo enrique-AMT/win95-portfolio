@@ -10,7 +10,7 @@ function Login() {
       dragOptions={{
         disabled: true,
       }}
-      title="Welcome to Windows"
+      title="Welcome!"
       style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -90%)"}}
       titleBarOptions={
         [<TitleBar.Help
@@ -23,11 +23,11 @@ function Login() {
         
       }
     >
-      <Modal.Content width="450px" height="160px" boxShadow="$in">
+      <Modal.Content width="450px" height="180px" boxShadow="$in">
         <div className="flex items-start justify-between gap-2">
           <Keys width={50} height={50}/>
           <div className="flex-col gap-4 flex">
-            <p style={{margin:0}}>Type your username and password to log in to your windows</p>
+            <p style={{margin:0}}>Type your username and password to log in.</p>
             <div className="flex-col flex gap-4">
               <div className="flex items-center gap-2">
                 <p style={{margin:0}}>username:</p>
@@ -38,6 +38,9 @@ function Login() {
                 <Input defaultValue={"admin"} type="password" disabled />
               </div>
             </div>
+            <div className="flex items-center gap-2">
+                <p style={{margin:0}}>NOTE: While this website does work on mobile, please enter via a desktop PC for the best experience!</p>
+              </div>
           </div>
           <div className="flex-col gap-2 flex">
             <Button style={{width:"100%"}} onClick={()=>login()}>Ok</Button>

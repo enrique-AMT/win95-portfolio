@@ -95,7 +95,7 @@ function Resume() {
         </Fieldset>
         <Fieldset legend="Hobbies">
           <p>
-            Aside from software tinkering, I do my fair share of hardware of hobbyist hardware work, particularly in the realm of electronics repairs. I also enjoy music and practice the guitar and drums in my free time, as well as enjoying amateur photography, specifically nature and architectural photography.
+            Aside from software tinkering, I do my fair share of hobbyist hardware work, particularly in the realm of electronics repairs. I also enjoy music and practice the guitar and drums in my free time, as well as enjoying amateur photography, specifically nature and architectural photography.
           </p>
         </Fieldset>
       </Tab>

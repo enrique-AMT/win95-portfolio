@@ -31,7 +31,7 @@ function Shutdown({ close }: ShutdownProps) {
     <>
       <SafeModal
         icon={<Computer3 variant="32x32_4" />}
-        title="Shut Down Windows"
+        title="Shut Down"
         style={{
           left: "50%",
           top: "50%",
