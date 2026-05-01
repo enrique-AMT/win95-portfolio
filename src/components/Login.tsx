@@ -23,7 +23,7 @@ function Login() {
         
       }
     >
-      <Modal.Content width="400px" height="180px" boxShadow="$in">
+      <Modal.Content width="400px" height="200px" boxShadow="$in">
         <div className="flex items-start justify-between gap-2">
           <Keys width={50} height={50}/>
           <div className="flex-col gap-4 flex">
