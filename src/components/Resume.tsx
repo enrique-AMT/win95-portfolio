@@ -43,7 +43,7 @@ function Resume() {
         </Fieldset>
       </Tab>
       <Tab title="Skills">
-        <ScrollView style={{ width: '460px', height: '400px' }}>
+        <ScrollView style={{ width: '380px', height: '400px' }}>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
           <Fieldset legend="Frontend">
             <ul>
