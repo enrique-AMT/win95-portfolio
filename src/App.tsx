@@ -19,7 +19,7 @@ function App() {
           <div className="fixed">
             <DesktopIcon icon={<CdMusic variant="32x32_4" />} name="Music Picks">
               <iframe width={320} height={240} src="https://www.youtube.com/embed/videoseries?si=uSnO1tZjFV6JqZF7&amp;controls=0&amp;list=PLzmIFbnRkcrfpP3L-zUB-zrjdGVSdF_V1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>            </DesktopIcon>
-            <DesktopIcon width={480} icon={<Wordpad variant="32x32_4" />} name="Resume">
+            <DesktopIcon width={400} icon={<Wordpad variant="32x32_4" />} name="Resume">
               <Resume />
             </DesktopIcon>
             <DesktopIcon width={400} icon={<Mail variant="32x32_4" />} name="Contact">
