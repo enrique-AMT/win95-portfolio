@@ -1,4 +1,5 @@
 import { Avatar, Checkbox, Fieldset, ProgressBar, Tab, Tabs } from '@react95/core';
+import { ScrollView } from 'react95';
 
 function Resume() {
   return (
@@ -42,6 +43,7 @@ function Resume() {
         </Fieldset>
       </Tab>
       <Tab title="Skills">
+        <ScrollView style={{ width: '460px', height: '400px' }}>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
           <Fieldset legend="Frontend">
             <ul>
@@ -86,6 +88,7 @@ function Resume() {
             </ul>
           </Fieldset>
         </div>
+        </ScrollView>
       </Tab>
       <Tab title="Other">
         <Fieldset legend="More Info">

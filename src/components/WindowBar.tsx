@@ -21,7 +21,7 @@ function Clock() {
 
   return (
     <div style={{ padding: "0 10px", alignSelf: "center" }}>
-      {time.toLocaleTimeString("en-us", { hour: "2-digit", minute: "2-digit" })}
+      {time.toLocaleTimeString("en-us")}
     </div>
   );
 }
