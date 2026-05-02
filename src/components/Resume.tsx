@@ -58,9 +58,9 @@ function Resume() {
               <li className="resume-skills">Java</li>
               <ProgressBar percent={100} width="200px" />
               <li className="resume-skills">Kotlin</li>
-              <ProgressBar percent={92} width="200px" />
-              <li className="resume-skills">Groovy</li>
               <ProgressBar percent={94} width="200px" />
+              <li className="resume-skills">Groovy</li>
+              <ProgressBar percent={92} width="200px" />
               <li className="resume-skills">Spring</li>
               <ProgressBar percent={85} width="200px" />
               <li className="resume-skills">GraphQL</li>
